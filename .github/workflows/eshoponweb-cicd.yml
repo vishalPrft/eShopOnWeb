@@ -10,7 +10,7 @@ env:
   LOCATION: westus2
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: fccddcae-9527-4b59-b502-6fbbb0a4da87
-  WEBAPP-NAME: devops-webapp-westus2-66158008
+  WEBAPP-NAME: devops-webapp-region1-66158008
 
 jobs:
   #Build, test and publish .net web project in repository
