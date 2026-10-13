@@ -1,5 +1,5 @@
 @description('Name for the container group')
-param name string = 'eshopcontainer'
+param sku string = 'S1' // The SKU of App Service Plan
 
 @description('Location for all resources.')
 param location string = resourceGroup().location
